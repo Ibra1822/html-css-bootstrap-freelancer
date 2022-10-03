@@ -11,6 +11,10 @@ header{
   background-color: #2C3E50;
 }
 
+section{
+  margin-bottom: 40px;
+}
+
 .jumbotron{
   background-color: #3FBD9C;
   height: 600px;
@@ -23,6 +27,33 @@ header{
 
 .sk_i{
   height: 200px;
+  border-radius: 20px;
+}
+
+.abou_t{
+  height: 600px;
+  background-color: #1ABC9D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot{
+  background-color: #3A546D;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+footer{
+  height: 100px;
+  background-color: #2C3E50;
+}
+
+.ab_t{
+  display: block;
 }
 
 
