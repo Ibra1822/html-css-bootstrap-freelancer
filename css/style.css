@@ -12,11 +12,29 @@ header{
   background-color: #2C3E50;
 }
 
-header a,i{
+header a{
   font-size: 1.5rem;
   color: #ffffff;
   text-decoration: none;
 }
+
+header a:hover{
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+header i{
+  color: #ffffff;
+  font-size: 2.2rem;
+  padding: 5px;
+  border: 3px solid transparent;
+  transition: all 0.5s;
+}
+
+header i:hover{
+  border: 3px solid white;
+}
+
 
 /* FINE HEADER  */
 
@@ -62,8 +80,8 @@ section{
 .ib-in{
   width: 100%;
   height: 100%;
-  padding: 5px;
-
+  position: relative;
+  cursor: pointer;
 }
 
 .ib-in img{
@@ -76,7 +94,33 @@ section{
   margin: 20px 0;
   color: #2C3E50;
   font-size: 3rem;
+
 }
+
+.ib-green{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(63, 189, 156, 0.5);
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.ib-green i{
+  font-size: 200px;
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ib-in:hover .ib-green{
+display: block;
+}
+
 
 .ib_bl_st{
   display: flex;
@@ -105,6 +149,7 @@ section{
   background-color: #1ABC9D;
 }
 
+
 .abou_t h2{
   color: #ffffff;
   font-size: 3rem;
@@ -121,7 +166,7 @@ section{
 
 
 .sk_i p{
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .ib-bt i{
@@ -135,6 +180,9 @@ section{
 
 /* FINE ABOUT  */
 
+.ib-bl-st .ib_l{
+  width: 10%;
+}
 
 .ib-bl-st i{
   color: #2C3E50;
@@ -152,18 +200,7 @@ form{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* FINE CONTACT-ME  */
 
 .foot{
   background-color: #3A546D;
@@ -174,9 +211,42 @@ form{
   margin-bottom: 0;
 }
 
+.foot .ib-soci i{
+ font-size: 20px;
+ text-align: center;
+ line-height: 40px;
+ color: #ffffff;
+}
+
+.wb-soci{
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  margin: 10px 5px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+}
+
+
+.ib-la-li{
+  color: #39AC93;
+}
+
+.ib-la-li:hover{
+  color: #39AC93;
+}
+
+
+/* FINE FOOT  */
+
 footer{
   height: 100px;
   background-color: #2C3E50;
+}
+
+footer .container{
+  line-height: 50px;
+  font-size: 0.9rem;
 }
 
 .ab_t{
