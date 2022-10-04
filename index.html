@@ -9,6 +9,8 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
   <link rel="stylesheet" href="css/style.css">
 
   <title>Bootstrap</title>
@@ -16,96 +18,151 @@
 <body>
 
 <header>
-<div class="container">
-  <div class="row">
-    <div class="col-8 col-md-2">Logo</div>
-    <div class="col-2 d-md-none offset-2 text-center"><a href="#">H</a></div>
-    <div class="col d-none d-md-block col-md-2 offset-md-4 text-center"><a href="#">Portifolio</a></div>
-    <div class="col d-none d-md-block col-md-2 text-center"><a href="#">About</a> </div>
-    <div class="col d-none d-md-block col-md-2 text-center"><a href="#">Contact</a></div>
+<div class="container h-100 ">
+  <div class="row h-100  align-items-center">
+    <div class="col"><strong><a href=""> START BOOTSTRAP</a></strong></div>
+    <div class="col text-end d-md-none"> <a href=""><i class="bi bi-list"></i> </a></div>
+    <div class="col-7 text-end d-none d-md-block ">
+
+      <a class="m-2" href="">PORTFOLIO</a>
+      <a class="m-2" href="">ABOUT</a>
+      <a class="m-2" href="">CONTACT</a>
+
+    </div>
+
+
   </div>
-</div>
+  
 </header>
 
 <!-- FINE HEADER  -->
 
 <div class="jumbotron">
-<div class="container">
-  <div class="row">
-    <div class="col-8 offset-2 jumbo_img">
-      img
-    </div>
-    </div>
-
+  <div class="container text-center w-100">
     <div class="row">
-      <div class="col-8 offset-2 text-center">
-        <h1>START BOOTSTRAP</h1>
+      <div class="col">
+        <div class="jumbo_img">
+          <img src="img/avatar.svg" alt="">
+          <h1>START BOOTSTRAP</h1>
+          <div class="row justify-content-center">
+            <div class="col-7">
+              <div class="ib-l-l"></div>
+              <i class="bi bi-star-fill"></i>
+              <div class="ib-l-r"></div>
+            </div>
+            <strong class="ib-s-ti">GRAPHIC ARTIST-WEB DESIGNER-ILLUSTRATOR</strong>
+          </div>
+        </div>
       </div>
-      </div>
-    <div class="row justify-content-center">
-      <div class="col-3"></div>
-      <div class="col-1"></div>
-      <div class="col-3"></div>
     </div>
-
-    <div class="row justify-content-center text-center">
-      <div class="col-3"><a href="">GRAPHIC ARTIS</a> </div>
-      <div class="col-3"><a href="">WEB DESIGNER</a> </div>
-      <div class="col-3"><a href=""> ILLUSTRATOR</a></div>
-
-    </div>
-
-</div>
+  </div>
+  
 </div>
 
 <!-- FINE JUMBOTRON  -->
 
-<section>
+<section class="images">
 <div class="container">
   
   <div class="row justify-content-center">
-    <div class="col-6 text-center"> <h2>PORTFOLIO</h2></div>
-  </div>
 
-  <div class="row justify-content-center">
-    <div class="col-3"></div>
-    <div class="col-1"></div>
-    <div class="col-3"></div>
+    <div class="col-6 text-center"> 
+      
+      <h2>PORTFOLIO</h2></div>
 
   </div>
+
+  <div class="row justify-content-center ib-con-st">
+
+    <div class="col-7 ib_bl_st">
+      <div class="ib_l"></div>
+        <i class="bi bi-star-fill"></i>
+      <div class="ib_l"></div>
+
+    </div>
+
+  </div>
+
 </div>
 
 <div class="container">
-  <div class="row gx-5 justify-content-center">
-    <div class="col-md-6 col-lg-4 sk_i"></div>
-    <div class="col-md-6 col-lg-4 sk_i"></div>
-    <div class="col-md-6 col-lg-4 sk_i"></div>
-    <div class="col-md-6 col-lg-4 sk_i"></div>
-    <div class="col-md-6 col-lg-4 sk_i"></div>
-    <div class="col-md-6 col-lg-4 sk_i"></div>
-  </div>
-</div>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3  justify-content-center g-3">
+    <div class="col sk_i">
+      <div class="ib-in ">
+        <img src="img/cabin.png" alt="">
+      </div>
+    </div>
 
+    <div class="col sk_i">
+      <div class="ib-in ">
+        <img src="img/cake.png" alt="">
+      </div>
+    </div>
+    <div class="col sk_i">
+      <div class="ib-in ">
+        <img src="img/circus.png" alt="">
+      </div>
+    </div>
+    <div class="col sk_i">
+      <div class="ib-in ">
+        <img src="img/game.png" alt="">
+      </div>
+    </div>
+    <div class="col sk_i">
+      <div class="ib-in ">
+        <img src="img/safe.png" alt="">
+      </div>
+    </div>
+    <div class="col sk_i">
+      <div class="ib-in ">
+        <img src="img/submarine.png" alt="">
+      </div>
+    </div>
+
+    </div>
 </section>
 
 <!-- FINE CARD   -->
 
  
-<section class="">
- <div class="abou_t">
+<section class="abou_t">
+
+ <div class="container">
+<div class="row d-flex justify-content-center ab-ro">
+
+  <h2 class="text-center">ABOUT</h2>
+
+  <div class="col-7 ib_bl_st">
+    <div class="ib-l-l"></div>
+      <i class="bi bi-star-fill"></i>
+    <div class="ib-l-r"></div>
+</div>
+</div>
   
   <div class="container">
-    <div class="row  ">
+    <div class="row m-md-4 t-ro ">
       <div class="col-md-6 sk_i">
         <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete soure files including HTML,CSS,and JavaScript as well as optional LESS stylesheets for easy customization.</p>
       </div>
-      <div class="col-md-6 sk_i">
+      <div class="col-md-6  sk_i">
         <p>Whether you're a student looking to showcase your work a professional looking to attract clients,or a graphic artist looking to share your projects,this template is a perfect starting point!
 
         </p>
       </div>
+      
     </div>
   </div>
+  <div class="col d-flex justify-content-center">
+
+  <button type="button" class="btn btn-outline-light ib-bt">
+
+    <i class="bi bi-download"></i>
+
+    Download
+
+  </button>
+</div>
+
 </div>
 </section>
 
@@ -113,28 +170,55 @@
 
 <section>
 <div class="container">
-  <div class="row justify-content-center">
-    <div class="col-4 text-center"><h2>Contact-me</h2></div>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-3"></div>
-    <div class="col-1"></div>
-    <div class="col-3"></div>
-  </div>
+  <div class="row text-center">
+    <h2>CONTACT ME</h2>
+    <div class="col d-flex justify-content-center align-items-center ib-bl-st">
+  <div class="ib_l"></div>
+  <i class="bi bi-star-fill"></i>
+<div class="ib_l"></div>
+</div>
+</div>
+</div>
   
-  <div class="row">
-    <div class="col-fluid">Name</div>
-    <div class="col-fluid">Email Address</div>
-    <div class="col-fluid">Phone Number</div>
-    <div class="col-fluid">Message</div>
+<div class="container">
+    <div class="row">
+      <div class="col-8 offset-2 ib-form" >
+        <form>
 
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
 
-  <a href="" class="send">Send</a>
-
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Phone Number</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+  </div>
+
+  <button type="button" class="btn btn-success">Send</button>
+
+
+   
+</form>
+      </div>
+    </div>
+
+</div>
+
+
 
 </section>
+
+
 
 <section class="foot">
 <div class="container">
@@ -146,10 +230,12 @@
     <div class="col-md-4 text-center">
       <strong>AROUNDTHE WEB</strong>
       <div>
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-google-plus-g"></i>
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-linkedin-in"></i>
+
+    <a href=""> <i class="fa-brands fa-facebook"></i></a>
+    <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+    <a href=""><i class="fa-brands fa-twitter"></i></a>
+    <a href=""> <i class="fa-brands fa-linkedin-in"></i></a>
+    
       </div>
     </div>
     <div class="col-md-4 text-center">
