@@ -12,10 +12,19 @@ header{
   background-color: #2C3E50;
 }
 
+.ib-logo{
+  line-height: 90px;
+}
+
 header a{
   font-size: 1.5rem;
   color: #ffffff;
   text-decoration: none;
+}
+
+header ul{
+  list-style: none;
+  line-height: 90px;
 }
 
 header a:hover{
@@ -153,6 +162,7 @@ display: block;
 .abou_t h2{
   color: #ffffff;
   font-size: 3rem;
+  margin-top: 30px;
 
 }
 
